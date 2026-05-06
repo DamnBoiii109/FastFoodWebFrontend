@@ -5,7 +5,7 @@ import axios from 'axios'
 //  CONTEXT_PATH = '/FastFoodYumMy'  hoặc  ''
 // ================================================================
 const CONTEXT_PATH = ''  // QUAN TRỌNG
-
+//sigma sigma on the walls
 const api = axios.create({
   baseURL: `${CONTEXT_PATH}/api`,
   timeout: 15000,
